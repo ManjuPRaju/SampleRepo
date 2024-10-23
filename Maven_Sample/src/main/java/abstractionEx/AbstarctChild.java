@@ -15,8 +15,7 @@ public class AbstarctChild extends AbstarctEx{
 		// TODO Auto-generated method stub
 		int sum=1+2;
 		System.out.println(sum);
-		
-	}
+		}
 	public void display2()
 	{
 		System.out.println("Non abstract Child");
