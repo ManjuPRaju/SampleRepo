@@ -6,9 +6,21 @@ public class ExceptionEx {
 		// TODO Auto-generated method stub
 int a=50;
 int b=0;
-System.out.println("Hello");
+try {
 int d=a/b;
-System.out.println(d);
+}
+catch(ArithmeticException name)
+{
+	b=5;
+	int e=a/b;
+	System.out.println(e);
+	System.out.println(name);
+}
+finally
+{
+System.out.println("Execution Completed");
+}
+}
 	}
 
-}
+
